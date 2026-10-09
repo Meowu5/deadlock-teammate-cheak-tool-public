@@ -1,0 +1,29 @@
+Deadlock 玩家记录器 — 第三方声明
+
+本项目是非商业的独立社区工具，与 Valve、Steam、Microsoft 无隶属、赞助或官方背书关系。
+Deadlock 名称、英雄图像和游戏素材归各自权利人所有。本说明不授予游戏素材的新授权。
+既有英雄图像来源说明保存在 licenses/VALVE-ASSET-ATTRIBUTION.txt。
+项目的非商业用途说明不改变第三方开源组件的许可或限制其原许可授予的权利。
+
+本发行包随附下列组件的原始许可和版权声明，请保留这些文件：
+
+- Python 3.12.10：licenses/python/LICENSE.txt，包含 PSF 许可及 Windows 发行版第三方说明。
+- Pillow 12.3.0：licenses/pillow/LICENSE 及原始 SBOM，包含随 wheel 分发的图像/字体库声明。
+- PyInstaller 6.21.0 引导程序：licenses/pyinstaller/COPYING.txt，含引导程序例外条款。
+- OpenSSL 3.0.16：licenses/openssl/LICENSE.txt。
+- libffi 3.4.4：licenses/libffi/LICENSE。
+- SQLite 3.49.1：licenses/sqlite/copyright.html（SQLite 官方公共领域说明）。
+- Rust/Tauri 依赖：licenses/RUST-DEPENDENCIES.json 及各组件许可目录。
+  这是 Cargo 锁定依赖的完整集合，包含构建时和其他平台依赖，并非声称它们全部被运行时链接。
+- MPL-2.0 组件：licenses/MPL-SOURCE-INDEX.json 列出原样附带的官方 .crate 源码归档及 SHA-256。
+  这些源码归档与 Cargo.lock 校验和一致；原始源码及其中的许可声明均未修改。
+- Microsoft WebView2 SDK 1.0.3800.47：licenses/webview2-sdk/LICENSE.txt、NOTICE.txt。
+  它们从精确版本的 Microsoft NuGet 包取得，构建缓存 loader 与该包逐字节哈希一致。
+  WebView2 浏览器运行时由 Windows 上的现有安装提供，本包不附带该浏览器运行时。
+- Microsoft Windows/C++ 运行库保留原二进制和版权信息；Python 许可文件含其分发说明。
+
+本文件是组件索引，不替代各组件完整许可，也不重新许可任何第三方软件或图像。
+licenses/RUNTIME-NOTICES.json 和 licenses/UPSTREAM-LICENSES.json 记录公开来源与校验和。
+
+原位更新后的最新副本：components/bridge/_internal/licenses/THIRD-PARTY-NOTICES.txt。
+根目录的同名阅读副本可能属于最初解压版本；更新器不会覆盖用户的未知根目录文件。
