@@ -8,7 +8,9 @@
 
 **[下载 Windows x64 单文件 EXE](https://github.com/Meowu5/deadlock-teammate-cheak-tool-public/releases/latest/download/Deadlock-Recorder-Windows-x64.exe)**
 
-当前正式版 **v0.1.0**，主文件为 `Deadlock-Recorder-Windows-x64.exe`。[查看版本说明](https://github.com/Meowu5/deadlock-teammate-cheak-tool-public/releases/latest)；[下载 SHA256SUMS.txt](https://github.com/Meowu5/deadlock-teammate-cheak-tool-public/releases/latest/download/SHA256SUMS.txt) 核对文件。
+当前正式版 **v0.1.1**，主文件为 `Deadlock-Recorder-Windows-x64.exe`。[查看版本说明](https://github.com/Meowu5/deadlock-teammate-cheak-tool-public/releases/latest)；[下载 SHA256SUMS.txt](https://github.com/Meowu5/deadlock-teammate-cheak-tool-public/releases/latest/download/SHA256SUMS.txt) 核对文件。
+
+v0.1.1 修复历史补抓连续寻找候选、缺失时间影响近期对局排序、旧终止回执恢复入口及关闭竞态。本批最多寻找 50 个候选，不保证外部索引覆盖全部历史；本版不包含托盘后台运行。
 
 1. 按 [启动与更新](docs/INSTALL.md) 核对 EXE 的 SHA-256。
 2. 双击下载的 EXE，统一启动界面和采集功能。首次使用按界面选择资料目录和游戏日志来源；已有资料先关闭旧程序并备份完整资料目录。
