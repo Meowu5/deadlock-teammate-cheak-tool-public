@@ -8,11 +8,11 @@
 
 **[下载 Windows x64 单文件 EXE](https://github.com/Meowu5/deadlock-teammate-cheak-tool-public/releases/latest/download/Deadlock-Recorder-Windows-x64.exe)**
 
-当前正式版 **v0.1.3**，主文件为 `Deadlock-Recorder-Windows-x64.exe`。[查看版本说明](https://github.com/Meowu5/deadlock-teammate-cheak-tool-public/releases/latest)；[下载 SHA256SUMS.txt](https://github.com/Meowu5/deadlock-teammate-cheak-tool-public/releases/latest/download/SHA256SUMS.txt) 核对文件。
+当前正式版 **v0.1.4**，主文件为 `Deadlock-Recorder-Windows-x64.exe`。[查看版本说明](https://github.com/Meowu5/deadlock-teammate-cheak-tool-public/releases/latest)；[下载 SHA256SUMS.txt](https://github.com/Meowu5/deadlock-teammate-cheak-tool-public/releases/latest/download/SHA256SUMS.txt) 核对文件。
 
 v0.1.3 修复赛后列表重叠并默认折叠，重新设计“后台运行／彻底退出”关闭选择面板，补齐 Baba、Solomon 头像。已有采集和历史获取方式保持不变，Statlocker 自动补抓暂不接入；外部索引仍不保证覆盖全部历史。
 
-**QoL 更新核对（2026-10-14）：** 上游已发布同为 4.0.5 的 10 月 13 日 Danny 热修。对应的 **v0.1.4 候选适配尚未正式发布**；上面的下载链接仍提供 v0.1.3。包识别范围及验证进度见 [QoL 热修兼容记录](docs/QOL-COMPATIBILITY.md)。
+**QoL 更新核对（2026-10-15 05:15 UTC）：** 最新记录仍为 4.0.5 的 10 月 13 日 Danny 热修，官方文件编号、大小和 MD5 未变化。对应的 [v0.1.4 已发布](https://github.com/Meowu5/deadlock-teammate-cheak-tool-public/releases/tag/v0.1.4)，新增精确包识别并保留旧热修支持。离线测试已完成，真实游戏、原生界面交互和实际更新安装尚未验收；详情见 [QoL 热修兼容记录](docs/QOL-COMPATIBILITY.md)。
 
 1. 按 [启动与更新](docs/INSTALL.md) 核对 EXE 的 SHA-256。
 2. 双击下载的 EXE，统一启动界面和采集功能。首次使用按界面选择资料目录和游戏日志来源；已有资料先关闭旧程序并备份完整资料目录。
@@ -26,7 +26,7 @@ EXE 内含应用组件，首次运行校验后将组件准备到当前用户的�
 
 ## 数据来源与当前范围
 
-- **主要采集来源**：本机游戏日志中的有效 QoL 桥接记录。本版本正式支持的精确适配目标为 **QoL Lock 4.0.5 hotfix**，对应 [GameBanana 更新 461898](https://gamebanana.com/updates/461898)。普通 QoL 安装、版本号相同或兼容检测成功，都不能单独证明名单已经产生。
+- **主要采集来源**：本机游戏日志中的有效 QoL 桥接记录。v0.1.4 新增 **QoL Lock 4.0.5 Danny 热修**的精确适配，对应 [更新 463925](https://gamebanana.com/updates/463925)，并保留 [10 月 6 日热修 461898](https://gamebanana.com/updates/461898) 支持。普通 QoL 安装、版本号相同或兼容检测成功，都不能单独证明名单已经产生。
 - **桥接设置**：只读检查。本版本不提供 QoL 桥接的安装、修复、卸载或回退；不会替你生成或安装派生模组。没有可用桥接记录时，可继续查询和编辑本地资料，按需使用历史补充入口。
 - **历史资料**：在明确选择账号、范围并确认后，查询界面注明的外部来源。服务未收录、缺项或无法访问时保留真实状态；“已补充”不等于获得全部游戏历史。
 - **Steam 备用**：实验功能，默认 **关闭**。真实 Steam/DLL 版本组合及实战名单尚未完成验收；即使取得候选，也不是完整本局名单，须按提示人工确认。
